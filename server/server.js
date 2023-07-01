@@ -5,6 +5,7 @@ const app = express();
 
 app.get('/getRestaurants')
 
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is up and listening on port ${port}`);
